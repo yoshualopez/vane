@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background:#f28;}
+.contenedor{position: relative;top: 60px; width:500px;height: auto;margin: 10px auto;}
+.contenedor .letras{width: 100%;margin: 0 auto;}
+.contenedor .letras p{font-size: 4rem;font-weight: 600; word-spacing: 0.18rem;}
+.contenedor .letras > p{display: inline-block;}
+.contenedor .letras p.vane img{ left:20px;animation: 1.5s heart linear infinite; border: none; background-image: url(../fotos/JBgezwgWyCE.png);background-size: 50px;background-position: 0px -200px;background-repeat: no-repeat; margin: 15px;position:relative;top:15px;height: 50px;width: 50px;border-radius:50%;}
+.contenedor .letras >p{display: none;}
+.but{cursor:pointer;margin: 0px 10px;height: 60px;width: 120px;font-size: 1.2rem;background:green;border:none;outline:0px;}
+.but:hover{transform: scale(1.2);}
+.but:active{transform: scale(1);}
+@keyframes heart{
+    to{transform: scale(2);}
+    from{transform: scale(.8);}
+}
